@@ -14,6 +14,7 @@ function I = gauss_legendre(f, a, b, n)
 % TODO: 
 % - Tabular los valores Ai para cada n, de esa forma hacer mas eficiente la
 % implementacion
+% - Editar codigo para que sea mas legible y revisar el caso de n = 1.
 
 % Generar polinomio de legendre para n dado
 p = polinomio_legendre(n);
